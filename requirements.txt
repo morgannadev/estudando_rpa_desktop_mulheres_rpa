@@ -8,3 +8,4 @@ botcity-maestro-sdk>=0.3.3,<1.0
 
 # Uncomment to use Pandas
 pandas
+nunpy
