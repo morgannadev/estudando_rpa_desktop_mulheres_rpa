@@ -28,10 +28,10 @@ def main():
     bot.click_relative(137, 9)
 
     # essa opção coloca todo o valor no campo de uma vez, como se fosse ctrl+v
-    bot.paste("5629")
+    #bot.paste("5629")
 
-    # bot.type_keys("5629") - essa opção digitará tecla por tecla
-
+    bot.type_keys("5629") #- essa opção digitará tecla por tecla
+    
     bot.tab()
     
     if not bot.find( "campo_pa", matching=0.97, waiting_time=10000):
